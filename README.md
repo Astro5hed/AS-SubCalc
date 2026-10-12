@@ -81,4 +81,8 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 AS SubCalc is freeware: free to use, but not open source. See [LICENSE.txt](LICENSE.txt).
 
+If AS SubCalc has saved you some time at the telescope, a coffee is always appreciated:
+
+<a href="https://www.buymeacoffee.com/astroshed"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="50"></a>
+
 Copyright © 2026 Stewart Oliver, AstroShed. [astroshed.co.uk](https://astroshed.co.uk)
