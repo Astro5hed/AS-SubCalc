@@ -51,6 +51,7 @@ Changing the factor or the saturation limit updates the results straight away. B
 ### The results
 
 - **Usable sub length:** the range between the two bookends, shown on a time scale with a mark where your test frame sits.
+- **Diminishing returns:** the blue mark on the range bar. Beyond it the camera adds under 2% (factor 25), so longer subs gain almost nothing. If saturation stops you before that point, the app says so instead.
 - **Camera noise:** the camera's own noise, measured from the dark.
 - **Sky level:** how far the sky background sits above the dark in the test frame.
 - **Cost now:** the extra noise the camera adds at the test frame's length. A small figure means the sub was already long enough.
