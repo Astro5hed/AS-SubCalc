@@ -1,0 +1,37 @@
+AS SubCalc - Freeware Licence
+
+Copyright (c) 2026 Stewart Oliver, AstroShed. astroshed.co.uk
+All rights reserved.
+
+AS SubCalc ("the Software") is freeware. It is free to use, but it is not
+open source, and it remains the property of the copyright holder.
+
+1. You may download, install and use the Software free of charge, for
+   personal or commercial astrophotography.
+
+2. You may give unmodified copies of the Software to others, free of
+   charge, provided this licence goes with it. Linking to
+   https://github.com/Astro5hed/AS-SubCalc is preferred, so that people
+   always get the latest version.
+
+3. You may not sell the Software, charge for it, or include it in any
+   product or bundle that is sold.
+
+4. You may not modify, decompile, disassemble or reverse engineer the
+   Software, or distribute it in modified form, except as far as the law
+   allows despite this restriction.
+
+5. You may not remove or change the copyright notices, the AstroShed name
+   or this licence.
+
+6. The Software is provided "as is", without warranty of any kind, express
+   or implied, including but not limited to warranties of fitness for a
+   particular purpose. Its results are advice based on the frames you give
+   it; you use them at your own judgement.
+
+7. In no event shall the copyright holder be liable for any claim, damages
+   or other liability arising from the use of, or inability to use, the
+   Software.
+
+8. The copyright holder may change these terms for future versions. Each
+   version is covered by the licence supplied with it.
