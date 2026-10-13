@@ -44,6 +44,7 @@ The light can be any sub you have taken of a target with your usual filter. A sh
 
 - **Read noise factor:** how far the sky's noise must swamp the camera's read noise. At factor 10 the camera adds 4.9% to the noise the sky alone would give. Higher means longer subs and a smaller penalty; beyond about 25 there is almost nothing left to gain. Pick from the list or type your own number.
 - **Saturation limit:** the share of pixels that may saturate, mostly the cores of the brightest stars. 0.01% is a few thousand pixels on a typical sensor.
+- **Camera bit depth:** only matters when no pixels in the test frame are saturated, so the camera's ceiling can't be read from it. Nearly all astro cameras give 16-bit values, including 12- and 14-bit sensors whose values are scaled up, which is what the app assumes. Choose an unscaled setting only if your files really top out at 4,095 or 16,383 (some DSLR conversions do).
 - **Set by:** for colour cameras, which channel sets the shortest sub. The weakest channel is the default, so every channel ends up limited by the sky and not by the camera. The longest sub is always set by the channel that fills up first.
 
 Changing the factor or the saturation limit updates the results straight away. Both are remembered.
@@ -52,6 +53,7 @@ Changing the factor or the saturation limit updates the results straight away. B
 
 - **Usable sub length:** the range between the two bookends, shown on a time scale with a mark where your test frame sits.
 - **Diminishing returns:** the blue mark on the range bar. Beyond it the camera adds under 2% (factor 25), so longer subs gain almost nothing. If saturation stops you before that point, the app says so instead.
+- **Over 30 min:** a longest sub beyond 30 minutes is not given as a figure. Saturation won't be what stops you; guiding, satellites and the number of frames you want will set the practical limit.
 - **Camera noise:** the camera's own noise, measured from the dark.
 - **Sky level:** how far the sky background sits above the dark in the test frame.
 - **Cost now:** the extra noise the camera adds at the test frame's length. A small figure means the sub was already long enough.

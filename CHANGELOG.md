@@ -1,5 +1,13 @@
 # AS SubCalc: version history
 
+## v1.0.4
+
+- **Fixed:** on a test frame with no saturated pixels and nothing brighter than about 4,180, the app took a 16-bit camera for a 12-bit one, and the longest sub came out about 16 times too short. It now assumes 65,535, right for nearly all astro cameras.
+- **Camera bit depth** setting, for cameras that save unscaled 12-bit or 14-bit values. Only used when nothing in the test frame has clipped.
+- A note says when the camera's ceiling had to be assumed, because nothing in the test frame had clipped.
+- A longest sub beyond 30 minutes is shown as **over 30 min**: at that point saturation is not what stops you, and guiding, satellites and frame count set the practical limit.
+- A few bright pixels that happen to share the same value are no longer mistaken for the camera's ceiling.
+
 ## v1.0.3
 
 - **Point of diminishing returns** (factor 25, where the camera adds only 2%) marked on the range bar in blue and given in the text. If saturation stops you before that point, the app says so instead.
