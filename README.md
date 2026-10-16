@@ -57,7 +57,7 @@ Changing the factor or the saturation limit updates the results straight away. B
 - **Camera noise:** the camera's own noise, measured from the dark.
 - **Sky level:** how far the sky background sits above the dark in the test frame.
 - **Cost now:** the extra noise the camera adds at the test frame's length. A small figure means the sub was already long enough.
-- **e-/ADU:** the camera's conversion factor as measured from your frames. For interest only; nothing depends on it.
+- **Read noise:** the camera's read noise in electrons, measured from your frames. With darks it is shown as **Read + dark noise**, because a dark also holds a little dark-current noise; bias frames give the read noise alone. For interest only; the sub lengths do not depend on it.
 
 If the two limits cross, the app says so. You then choose which matters more: a lower factor, more saturated pixels, or two sets of subs (long ones for the faint detail, short ones for the bright stars).
 
