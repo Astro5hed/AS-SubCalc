@@ -1,6 +1,6 @@
 <p align="center"><img src="images/AS-SubCalc-icon.png" width="128" alt="AS SubCalc icon"></p>
 
-# AS SubCalc
+<h1 align="center">AS SubCalc</h1>
 
 **Measured sub-exposure calculator for astrophotography**, by AstroShed ([astroshed.co.uk](https://astroshed.co.uk)).
 
