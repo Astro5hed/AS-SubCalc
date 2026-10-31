@@ -1,0 +1,34 @@
+# AS SubCalc is freeware released as a Windows .exe through Releases only:
+# keep the source code and the builds out of this repository
+*.py
+*.pyw
+__pycache__/
+*.py[cod]
+
+# Builds (Python Runner / PyInstaller) - attach the zip to a Release instead
+build/
+dist/
+_internal/
+*.spec
+*.exe
+*.zip
+
+# Test frames (keep raw lights and darks off GitHub)
+*.fit
+*.fits
+*.fts
+*.xisf
+
+# Python environments
+.venv/
+venv/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
